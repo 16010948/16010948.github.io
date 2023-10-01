@@ -91,9 +91,9 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: 16010948
   picture:
-  email:
+  email: bjyoung0@gmail.com
   twitter:
   links:
     - title:
@@ -105,3 +105,6 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: GitHub
+    url: https://github.com/16010948
+    icon: fab fa-github-square
