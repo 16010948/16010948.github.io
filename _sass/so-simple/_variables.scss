@@ -19,11 +19,15 @@ $max-font-size: 18px !default;
 $modular-scale-1: 1.067 !default; /* small */
 $modular-scale-2: 1.2 !default; /* large */
 /* Heading 1 */
-$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
-$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
+$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+  $modular-scale-1 * $base-font-size !default;
+$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+  $modular-scale-2 * $base-font-size !default;
 /* Heading 2 */
-$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
-$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
+$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+  $base-font-size !default;
+$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+  $base-font-size !default;
 /* Heading 3 */
 $h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
 $h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
@@ -38,9 +42,10 @@ $h6-min: ($base-font-size / $modular-scale-1) !default;
 $h6-max: ($base-font-size / $modular-scale-2) !default;
 
 /* Font Families */
-$serif-font-family: "Lora", serif !default;
+$serif-font-family: "Gowun Batang", serif !default;
 $sans-serif-font-family: "Source Sans Pro", sans-serif !default;
-$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
+$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
+  monospace !default;
 
 $base-font-family: $sans-serif-font-family !default;
 $headline-font-family: $sans-serif-font-family !default;
